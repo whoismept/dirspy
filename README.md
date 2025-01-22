@@ -1,5 +1,7 @@
 # DirSpy
 
+DirSpy is a tool that helps you find directories and files on a website.
+
 ## Parameters
 
 - `-url`: **(required)** The base URL to crawl. For example: `http://example.com/`.
