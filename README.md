@@ -20,27 +20,27 @@ DirSpy is a tool that helps you find directories and files on a website.
 
 1. Basic usage:
    ```bash
-   ./dirspy -u=http://example.com/
+   ./dirspy -u http://example.com/
    ```
 
 2. Ignoring specific status codes:
    ```bash
-   ./dirspy -u=http://example.com/ -i='404,403'
+   ./dirspy -u http://example.com/ -i '404,403'
    ```
 
 3. Searching for keywords:
    ```bash
-   ./dirspy -u=http://example.com/ -k='password,api_key'
+   ./dirspy -u http://example.com/ -k 'password,api_key'
    ```
 
 4. Ignoring file extensions:
    ```bash
-   ./dirspy -u=http://example.com/ -e='.txt,.jpg'
+   ./dirspy -u http://example.com/ -e '.txt,.jpg'
    ```
 
 5. Using a proxy:
    ```bash
-   ./dirspy -u=http://example.com/ -p='http://localhost:8080'
+   ./dirspy -u http://example.com/ -p 'http://localhost:8080'
    ```
 
 ## License
