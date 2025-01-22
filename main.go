@@ -188,7 +188,7 @@ func main() {
 
 	fmt.Printf("\n%s\n", colors.Purple("Results:"))
 	for fileURL, info := range files {
-		resultLine := fmt.Sprintf("%s: %d bytes", fileURL, info.Size)
+		resultLine := fmt.Sprintf("%s : %d bytes", fileURL, info.Size)
 		if len(info.Keywords) > 0 {
 			resultLine += fmt.Sprintf(" %s", colors.Blue(fmt.Sprintf("[FOUND KEYWORDS: %s]", strings.Join(info.Keywords, ", "))))
 		}
