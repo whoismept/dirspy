@@ -1,4 +1,4 @@
-module github.com/whoismept/dircrawler
+module github.com/whoismept/dirspy
 
 go 1.23.4
 
