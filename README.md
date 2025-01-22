@@ -51,4 +51,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## Acknowledgments
 
-- Thanks to the Go community for their support and resources.
+- Thanks to the AI tools(Claude 3.5 Sonnet, ChatGPT 4o) for helping me with the code.
